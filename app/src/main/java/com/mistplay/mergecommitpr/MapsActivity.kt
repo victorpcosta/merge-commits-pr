@@ -1,8 +1,7 @@
 package com.mistplay.mergecommitpr
 
-import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-
+import androidx.appcompat.app.AppCompatActivity
 import com.google.android.gms.maps.CameraUpdateFactory
 import com.google.android.gms.maps.GoogleMap
 import com.google.android.gms.maps.OnMapReadyCallback
@@ -67,3 +66,13 @@ class MapsActivity : AppCompatActivity(), OnMapReadyCallback {
         mMap.moveCamera(CameraUpdateFactory.newLatLng(sydney))
     }
 }
+
+/**
+ * Mauris vehicula pulvinar ex, in interdum sem condimentum in. Duis id libero sapien. Duis et sapien
+ * non eros luctus facilisis. Nulla sollicitudin venenatis mollis. Aliquam erat volutpat. Pellentesque
+ * ipsum diam, aliquam non porttitor eget, tristique at diam. Phasellus efficitur sapien non cursus
+ * faucibus. Sed vel rhoncus ipsum. Mauris et sem sed metus facilisis lobortis sit amet eget libero.
+ * Morbi ullamcorper lorem id commodo euismod. Nam malesuada mauris id nulla sodales, id imperdiet
+ * risus posuere. Morbi risus metus, scelerisque non elementum ut, mattis et nisi. Interdum et
+ * malesuada fames ac ante ipsum primis in faucibus.
+ */
