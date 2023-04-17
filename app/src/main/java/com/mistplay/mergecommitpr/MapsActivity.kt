@@ -13,6 +13,27 @@ import com.mistplay.mergecommitpr.databinding.ActivityMapsBinding
 
 class MapsActivity : AppCompatActivity(), OnMapReadyCallback {
 
+    /**
+     * Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit
+     */
+
+    /**
+     * Fusce nisi velit, rhoncus vehicula leo at, varius facilisis velit. Sed aliquet aliquet nunc.
+     * Pellentesque nec vestibulum leo, vel vestibulum libero. Morbi eu enim in lorem ornare fermentum.
+     * Fusce massa tellus, scelerisque sodales libero a, consectetur iaculis est. Fusce aliquam nisi
+     * id metus laoreet blandit. Morbi et ipsum quis velit rhoncus volutpat in eu neque.
+     */
+
+    /**
+     * Morbi hendrerit, mauris nec consectetur pellentesque, nibh massa sagittis dui, et sollicitudin
+     * risus sem posuere mauris. Cras placerat tempor libero et convallis. Donec nec erat sit amet
+     * leo pellentesque venenatis. Donec maximus ex eget dolor malesuada finibus. Suspendisse potenti.
+     * Fusce vel accumsan ipsum. Mauris ac arcu justo. Suspendisse eget quam massa. Maecenas viverra
+     * ultricies bibendum. Vestibulum dictum, justo posuere posuere auctor, ligula sapien pellentesque
+     * nulla, eget vehicula eros leo id elit. Sed sit amet pulvinar risus, a porttitor lectus.
+     * Cras quis enim in turpis maximus rhoncus.
+     */
+
     private lateinit var mMap: GoogleMap
     private lateinit var binding: ActivityMapsBinding
 
@@ -87,3 +108,13 @@ class MapsActivity : AppCompatActivity(), OnMapReadyCallback {
      * maiores alias consequatur aut perferendis doloribus asperiores repellat.
      */
 }
+
+/**
+ * Mauris vehicula pulvinar ex, in interdum sem condimentum in. Duis id libero sapien. Duis et sapien
+ * non eros luctus facilisis. Nulla sollicitudin venenatis mollis. Aliquam erat volutpat. Pellentesque
+ * ipsum diam, aliquam non porttitor eget, tristique at diam. Phasellus efficitur sapien non cursus
+ * faucibus. Sed vel rhoncus ipsum. Mauris et sem sed metus facilisis lobortis sit amet eget libero.
+ * Morbi ullamcorper lorem id commodo euismod. Nam malesuada mauris id nulla sodales, id imperdiet
+ * risus posuere. Morbi risus metus, scelerisque non elementum ut, mattis et nisi. Interdum et
+ * malesuada fames ac ante ipsum primis in faucibus.
+ */
