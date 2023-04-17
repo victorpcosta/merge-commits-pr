@@ -2,6 +2,7 @@ package com.mistplay.mergecommitpr
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import android.util.Log
 
 import com.google.android.gms.maps.CameraUpdateFactory
 import com.google.android.gms.maps.GoogleMap
@@ -21,9 +22,12 @@ class MapsActivity : AppCompatActivity(), OnMapReadyCallback {
 
         binding = ActivityMapsBinding.inflate(layoutInflater)
         setContentView(binding.root)
+        setContentView(binding.root)
+        setContentView(binding.root)
 
         val mapFragment = supportFragmentManager.findFragmentById(R.id.map) as SupportMapFragment
         mapFragment.getMapAsync(this)
+        Log.d("Test", mapFragment.id.toString())
     }
 
     /**
@@ -40,9 +44,14 @@ class MapsActivity : AppCompatActivity(), OnMapReadyCallback {
 
         // Add a marker in Sydney and move the camera
         val sydney = LatLng(-34.0, 151.0)
+        val montreal = LatLng(45.5019, -73.5674)
         mMap.addMarker(MarkerOptions().position(sydney).title("Marker in Sydney"))
+        mMap.addMarker(MarkerOptions().position(montreal).title("Marker in Montreal"))
         mMap.moveCamera(CameraUpdateFactory.newLatLng(sydney))
         mMap.maxZoomLevel
+        mMap.clear()
+        mMap.clear()
+        mMap.clear()
         mMap.clear()
     }
 }
